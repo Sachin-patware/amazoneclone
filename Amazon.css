@@ -1,0 +1,388 @@
+* {
+  margin: 0px;
+  font-family: Arial;
+  border: border-box;
+
+}
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  height: 60px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navlogo {
+  height: 50px;
+  background-color: black;
+  width: 100px;
+  margin-left: 10px;
+}
+.logo {
+  background-image: url("logo1.png");
+
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.border {
+  border: 1.5px solid transparent;
+
+}
+.border:active {
+  border: 1.5px solid white;
+}
+/*box2 */
+
+
+
+
+
+#add1 {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+#add2 {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.navicon {
+  display: flex;
+}
+/*box3 */
+.navsearch
+{
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 640px;
+  height: 40px;
+  border-radius: 4px;
+
+}
+.se-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+.se-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.se-icon {
+  background-color: #febd68;
+  color: black;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+
+}
+/*box4*/
+.navsearch:active {
+  border: 1.5px solid orange;
+}
+.box4 {
+  height: 25px;
+  width: 50px;
+
+  border: none;
+  display: flex;
+}
+
+.se-globe {
+  display: flex;
+  align-items: center;
+}
+.se-lang {
+  width: 34px;
+  color: white;
+  background-color: black;
+  font-size: 0.7rem;
+  border: none;
+  margin-bottom: 5px;
+}
+/*box5*/
+
+span {
+  font-size: 0.6rem;
+
+
+}
+.span-sign {
+  margin-left: 8px;
+}
+
+.list {
+  background-color: black;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border: none;
+
+}
+
+.nav-second {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.nav-cart i {
+  font-size: 35px;
+}
+
+.nav-cart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.p-option {
+  display: flex;
+  width: 80%;
+  font-size: 0.85;
+
+}
+
+.p-option p {
+  margin-left: 20px;
+
+}
+.p-sell {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+/** hero panel**/
+.hero-section {
+  background-image: url("hero.jpg");
+  height: 450px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero-title {
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  margin: 25px;
+
+}
+.hero-title a {
+  text-decoration: none;
+  color: #007185;
+}
+/** shop section**/
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgba(255, 140, 142,0.3);
+}
+.box {
+  height: 450px;
+  width: 23%;
+  background-color: white;
+  padding: 30px 0px 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.img {
+
+  background-size: 350px 350px;
+  height: 350px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.shop-contant {
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+/** singin **/
+.sign-in-section {
+  background-color: white;
+  color: black;
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  height: 300px;
+  margin: 70px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.sing-button {
+  background-color: #fcc438;
+
+  color: black;
+  height: 50px;
+  width: 350px;
+
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.singp1 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.sign-in-section p {
+  margin: 8px 0px 7px;
+}
+.sign-in-section a {
+  color: #007185;
+}
+
+
+
+
+.shop-contant p {
+color: #007185;
+}
+.footer-panel1 {
+background-color: #37475a;
+color: white;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1rem;
+}
+.footer-panel2 {
+height: 500px;
+background-color: #222f3d;
+color: white;
+display: flex;
+justify-content: space-evenly;
+
+}
+ul {
+margin-top: 20px;
+}
+ul h2 {
+margin-bottom: 20px;
+}
+ul a {
+display: block;
+font: 0.7rem;
+color: #dddddd;
+margin-top: 10px;
+text-decoration: none;
+}
+/**footer-panel3**/
+.footer-panel3 {
+background-color: #222f3d;
+border-top: 0.5px solid white;
+height: 75px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.logo2 {
+background-image: url("logo2.png");
+background-size: cover;
+height: 50px;
+width: 100px;
+}
+/** panel4**/
+.footer-panel4 {
+background-color: #0f1111;
+color: white;
+height: 80px;
+text-align: center;
+font-size: 0.7rem;
+
+}
+.info {
+padding-top: 25px;
+
+}
+.copyright {
+margin-top: 5px;
+}
+/* For phones in portrait and landscape mode */
+@media only screen and (max-width: 767px) {
+.navbar {
+height: 70px;
+
+.navlogo {
+height: 40px;
+width: 20px;
+
+}
+#add1 {
+  color: #cccccc;
+  font-size: 0.5rem;
+  margin-left: 7px;
+}
+#add2 {
+  font-size: 0.6rem;
+  margin-left: 3px;
+}
+.navicon {
+  display: flex;
+}
+/*box3 */
+.navsearch
+{
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 200px;
+  height: 40px;
+  
+
+}
+.se-select {
+  background-color: #f3f3f3;
+  width: 20px;
+  
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  
+}
+.se-input {
+  width: 100%;
+  font-size: 0.6rem;
+  
+}
+.se-icon {
+  
+  width: 20px;
+
+  font-size: 0.8rem;
+  
+}
+}
+}
