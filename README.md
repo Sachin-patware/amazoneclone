@@ -1,2 +1,2 @@
 # amazoneclone
-  by sachin 
+https://sachin-patware.github.io/amazoneclone/
